@@ -1,0 +1,84 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ControleDeCadastro
+build_property.RootNamespace = ControleDeCadastro
+build_property.ProjectDir = D:\Documentos\Trabalho\ControleDeCadastro\ControleDeCadastro\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = D:\Documentos\Trabalho\ControleDeCadastro\ControleDeCadastro
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Documentos/Trabalho/ControleDeCadastro/ControleDeCadastro/Views/Cadastro/AlteraEmpresa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9cQWx0ZXJhRW1wcmVzYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Trabalho/ControleDeCadastro/ControleDeCadastro/Views/Cadastro/AlterarAssociado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9cQWx0ZXJhckFzc29jaWFkby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Trabalho/ControleDeCadastro/ControleDeCadastro/Views/Cadastro/ApagarAssociado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9cQXBhZ2FyQXNzb2NpYWRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Trabalho/ControleDeCadastro/ControleDeCadastro/Views/Cadastro/ApagarEmpresa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9cQXBhZ2FyRW1wcmVzYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Trabalho/ControleDeCadastro/ControleDeCadastro/Views/Cadastro/Associado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9cQXNzb2NpYWRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Trabalho/ControleDeCadastro/ControleDeCadastro/Views/Cadastro/CadastrarAssociado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9cQ2FkYXN0cmFyQXNzb2NpYWRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Trabalho/ControleDeCadastro/ControleDeCadastro/Views/Cadastro/CadastrarEmpresa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9cQ2FkYXN0cmFyRW1wcmVzYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Trabalho/ControleDeCadastro/ControleDeCadastro/Views/Cadastro/ConsultarAssociado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9cQ29uc3VsdGFyQXNzb2NpYWRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Trabalho/ControleDeCadastro/ControleDeCadastro/Views/Cadastro/Empresa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9cRW1wcmVzYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Trabalho/ControleDeCadastro/ControleDeCadastro/Views/Cadastro/Vincular.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9cVmluY3VsYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Trabalho/ControleDeCadastro/ControleDeCadastro/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Trabalho/ControleDeCadastro/ControleDeCadastro/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Trabalho/ControleDeCadastro/ControleDeCadastro/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Trabalho/ControleDeCadastro/ControleDeCadastro/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Trabalho/ControleDeCadastro/ControleDeCadastro/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Trabalho/ControleDeCadastro/ControleDeCadastro/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Trabalho/ControleDeCadastro/ControleDeCadastro/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-sxoux65ygk

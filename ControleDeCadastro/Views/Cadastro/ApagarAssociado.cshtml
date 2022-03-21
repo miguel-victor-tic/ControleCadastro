@@ -1,0 +1,11 @@
+﻿@model ControleAssociadosModel
+@{
+    ViewData["Title"] = "Confirmação de exclusão";
+}
+
+<div class="text-center">
+    <h3> Deseja realmente apagar o associado (@Model.Nome)? </h3>
+</div>
+
+<a class="btn btn-primary btn-block" role="button" asp-controller="Cadastro" asp-action="Associado">Cancelar Exclusão</a>
+<a class="btn btn-danger btn-block" role="button" asp-route-id="@Model.Id" asp-controller="Cadastro" asp-action="DeletaAssociado">Confirmar Exclusão</a>

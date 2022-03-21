@@ -1,0 +1,30 @@
+﻿@model ControleEmpresasModel
+@{
+    ViewData["Title"] = "Cadastro de Empresa";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Cadastrar nova Empresas  </h1>
+
+</div>
+
+<form asp-controller="Cadastro" asp-action="CadastrarEmpresa" method="post">
+
+    <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" class="form-control" asp-for="Nome" maxlength="200" placeholder="Informe o nome da empresa">
+        @Html.ValidationMessageFor(x => x.Nome)
+    </div>
+
+    <div class="form-group">
+        <label for="cnpj">CNPJ</label>
+        <input type="text" class="form-control" asp-for="Cnpj" maxlength="14" placeholder="Informe apenas os numeros do CNPJ da empresa">
+        @Html.ValidationMessageFor(x => x.Cnpj)
+    </div>
+    <br />
+        
+
+    <button type="submit" class="btn btn-primary">Adicionar</button>
+    <a class="btn btn-secondary" asp-controller="Cadastro" asp-action="Empresa" role="button">Voltar</a>
+
+</form>

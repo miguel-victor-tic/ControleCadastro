@@ -1,0 +1,65 @@
+﻿@model List<ControleAssociadosModel>
+@{
+    ViewData["Title"] = "Cadastro de associado";
+}
+
+<div class="text-center">
+
+    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <a class="btn btn-primary" role="button" asp-controller="Cadastro" asp-action="CadastrarAssociado">Novo associado</a>
+    </div>
+
+    @if (TempData["MensagemSucesso"] != null)
+    {
+        <div class="alert alert-success" role="alert">
+            <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="Close">X</button>
+            @TempData["MensagemSucesso"]
+        </div>
+    }
+
+    @if (TempData["MensagemErro"] != null)
+    {
+        <div class="alert alert-danger" role="alert">
+            <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="Close">X</button>
+            @TempData["MensagemErro"]
+        </div>
+    }
+
+
+    <br />
+    <h1 class="display-4">Associados cadastrados </h1>
+
+    <table class="table" id="table-associados">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Nome</th>
+                <th scope="col">CPF</th>
+                <th scope="col">Data Nascimento</th>
+                <th scope="col">  </th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                foreach (ControleAssociadosModel controleAssociados in Model)
+                {
+                    <tr>
+                        <th scope="row">@controleAssociados.Id</th>
+                        <td>@controleAssociados.Nome</td>
+                        <td>@controleAssociados.Cpf</td>
+                        <td typeof="date">@controleAssociados.Dt</td>
+                        <td>
+                            <div class="btn-group" role="group">
+                                <a role="button" class="btn btn-warning" asp-route-id="@controleAssociados.Id" asp-controller="Cadastro" asp-action="AlterarAssociado">Alterar</a>
+                                <a role="button" class="btn btn-danger" asp-route-id="@controleAssociados.Id" asp-controller="Cadastro" asp-action="ApagarAssociado">Apagar</a>
+                                <a role="button" class="btn btn-info">Filtrar</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>

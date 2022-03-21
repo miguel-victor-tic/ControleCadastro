@@ -1,0 +1,41 @@
+﻿@model List<ControleAEModel>
+@{
+    ViewData["Title"] = "vinculação de associados e empresas";
+}
+
+<div class="text-center">
+
+
+    <br />
+    <h1 class="display-4">Vinculações</h1>
+
+</div>
+<table class="table" id="table-associacao">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Id Associado</th>
+            <th scope="col">Id Empresa</th>
+            <th scope="col">  </th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            foreach (ControleAEModel controleAE in Model)
+            {
+                <tr>
+                    <th scope="row">@controleAE.Id</th>
+                    <td>@controleAE.IdAssociado</td>
+                    <td>@controleAE.IdEmpresa</td>
+                    <td>
+                        <div class="btn-group" role="group">
+                            <a role="button" class="btn btn-info">Filtrar</a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

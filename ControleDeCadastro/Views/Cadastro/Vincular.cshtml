@@ -1,0 +1,44 @@
+﻿@model ControleAEModel
+@{
+    ViewData["Title"] = "Vincular associado/empresa";
+}
+
+<div class="text-center">
+    @if (TempData["MensagemSucesso"] != null)
+    {
+        <div class="alert alert-success" role="alert">
+            <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="Close">X</button>
+            @TempData["MensagemSucesso"]
+        </div>
+    }
+
+    @if (TempData["MensagemErro"] != null)
+    {
+        <div class="alert alert-danger" role="alert">
+            <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="Close">X</button>
+            @TempData["MensagemErro"]
+        </div>
+    }
+
+    <br />
+    <a class="btn btn-primary" role="button" asp-controller="Cadastro" asp-action="ConsultarAssociado">Vinculações</a>
+    <br />
+    <h1 class="display-4">Nova associação</h1>
+
+</div>
+
+<form asp-controller="Cadastro" asp-action="Vincular" method="post">
+
+    <div class="form-group">
+        <label for="IdAssociado">Id do Assocido</label>
+        <input type="text" asp-for="IdAssociado" class="form-control" placeholder="Informe o id do associado">
+    </div>
+
+    <div class="form-group">
+        <label for="IdEmpresa">Id da Empresa</label>
+        <input type="text" asp-for="IdEmpresa" class="form-control" placeholder="Informe o id da Empresa">
+    </div>
+
+    <br />
+    <button type="submit" class="btn btn-primary btn-block">Cadastrar</button>
+</form> 
